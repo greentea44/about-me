@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<link rel = "stylesheet" href = "style.css" >
+<head>
+
+<body>
+
+<h1 class="animatedText" >WELCOME</h1>
+<img src="slide1.jpg" id="slideshow" />
+<br />
+<!-- <div id= "caption">
+caption for slide 1
+</div> -->
+<a href= "#" class="link" onclick="changeImage(1); return false;">NEXT</a>
+<a href= "#" class="link" onclick="changeImage(-1); return false;">PREVIOUS</a>
+<div class="stars">
+<img src="smallstar.png" class="smallstar" />
+<img src="smallstar.png" class="smallstar" />
+<img src="smallstar.png" class="smallstar" />
+<img src="smallstar.png" class="smallstar" />
+<img src="smallstar.png" class="smallstar" />
+<img src="smallstar.png" class="smallstar" />
+<img src="smallstar.png" class="smallstar" />
+
+</div>
+<p>
+ABOUT ME <br> Hi, My name is Mary. I'm a NYC based photographer and aspiring web developer. I also make jewelry.<br> Click on the diamond to see my Etsy store.<br> 
+</p>
+<div class="etsy">
+<a href="https://www.etsy.com/shop/MaryAldenJewelry?ref=hdr_shop_menu" class="rotate-link"><img src="diamond.png" class= "rotate-icon" /></a>
+
+</div>
+
+<div class="contact">
+<p class="contactp" >CONTACT ME</p>
+<form action="MAILTO:maldenirwin@gmail.com" method="post" enctype="text/plain">
+Name:<br>
+<textarea class="name" type="text" name="name" cols="25" rows="1"></textarea><br>
+Message:<br>
+<textarea class= "message" type="text" name="message"  cols="38" rows="3"></textarea><br>
+<input class="sendbutton" type="submit" value="send">
+</form>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="slideshow.js"></script>
+</body>
+
+</html>
+	
